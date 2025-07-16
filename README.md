@@ -2,17 +2,12 @@
 
 # Resultados
 
-# Melhor modelo
-
-                  model_name  test_accuracy  cv_score_on_train
-0  random_forest_char_ngrams         0.9982            0.99830
-1  random_forest_word_ngrams         0.9890            0.98915
-
-**************************************************
+## Melhor modelo
+```
 Melhor modelo encontrado: random_forest_char_ngrams
 Modelo: 'random_forest_char_ngrams'
 Acurácia no conjunto de teste: 0.9982
-**************************************************
+```
 
 ```
 Relatório de Classificação:
@@ -29,5 +24,6 @@ Relatório de Classificação:
 weighted avg       1.00      1.00      1.00      5000
 ```
 
-Matriz de confusão
+## Matriz de confusão
+
 <img width="788" height="701" alt="image" src="https://github.com/user-attachments/assets/f604ca9d-1e52-456a-a053-adbfc56a9b6f" />
